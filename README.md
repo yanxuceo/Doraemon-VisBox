@@ -1,9 +1,7 @@
 # Doraemon VisualBox 
 
 ## Motivation
-In the past month, I completed an Udacity Nanodegree for Sensor Fusion. In the LiDAR point cloud processing part, several filtering, segmentation, and clustering algorithms are implemented and evaluated; then in the Camera part, many combinations of detector/descriptor are tested to find the best combination in terms of matching accuracy and speed. 
-
-In both parts, I need to change the parameters like below then recompile the project to see the differences. Like this:
+In the past month, I completed an Udacity Nanodegree for Sensor Fusion. In the LiDAR point cloud processing, filtering, segmentation, and clustering algorithms are implemented and evaluated; then in the Camera part, many combinations of detector/descriptor are tested to find the best combination in terms of matching accuracy and speed. In both parts, I need to change the parameters like below then recompile the project to see the differences. Like this:
 
 ```
 cv::Mat descriptors;
